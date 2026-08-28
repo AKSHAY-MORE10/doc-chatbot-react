@@ -4,6 +4,14 @@ A secure, fully-featured Retrieval-Augmented Generation (RAG) Document Chatbot b
 
 This application allows users to upload PDF and Text documents, embed them into a local vector database, and chat with them using various Large Language Models (LLMs). It seamlessly integrates local models via **Ollama**, or cloud-based models via **Groq** and **Gemini**.
 
+---
+
+## 🎬 Demo
+
+[Watch Demo Video (Google Drive)](https://drive.google.com/file/d/1vVJ2nJrmdAxq70WK1RcvkoxQelREYSm1/view?usp=drive_link)
+
+---
+
 ## 🚀 Features
 
 - **Document Ingestion**: Upload PDF or TXT files. The app automatically chunks and vectorizes the text into ChromaDB.
