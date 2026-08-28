@@ -1,0 +1,45 @@
+:root {
+  color-scheme: dark;
+
+  /* Ink — the control-panel surfaces (sidebar, headers, chrome) */
+  --ink: #14171c;
+  --ink-raised: #1c2027;
+  --ink-border: rgba(236, 231, 218, 0.09);
+
+  /* Paper — where reading happens (bot messages, reference cards) */
+  --paper: #f4efe3;
+  --paper-dim: #e9e2d1;
+  --paper-text: #201c14;
+
+  /* Accent — brass, used for citations and primary actions (the signature) */
+  --brass: #c99a4b;
+  --brass-deep: #8f6d2e;
+  --brass-wash: rgba(201, 154, 75, 0.14);
+
+  /* User message — deep pine, distinct from both ink and brass */
+  --pine: #24463a;
+  --pine-deep: #163026;
+
+  --text: #ece7da;
+  --text-dim: #9a978d;
+  --danger: #c96a4b;
+  --danger-wash: rgba(201, 106, 75, 0.12);
+
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--ink);
+}
+button, input, select { font-family: inherit; }

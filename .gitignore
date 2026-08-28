@@ -1,0 +1,150 @@
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!.env.template
+
+# Secret and credential files
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.keystore
+*.pkcs12
+id_rsa*
+id_ed25519*
+secrets.json
+credentials.json
+service_account.json
+service-account*.json
+*-credentials.json
+*credentials*.json
+google-credentials.json
+client_secret*.json
+token.json
+
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+myvenv/
+env/
+env.example/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================================================================
+# Testing, Linting & Type Checking
+# ==============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.cache
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# ==============================================================================
+# Node.js / Frontend (React + Vite)
+# ==============================================================================
+node_modules/
+**/node_modules/
+frontend_react/dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.stylelintcache
+.vite/
+
+# ==============================================================================
+# Database, Vector Stores & Application Data
+# ==============================================================================
+chroma_data/
+*.sqlite3
+*.sqlite
+*.db
+*.db-journal
+storage/
+uploads/
+uploaded_files/
+data/
+
+# ==============================================================================
+# Logs & Temporary Files
+# ==============================================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==============================================================================
+# Operating System & IDE Specific
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDEs & Editors
+.idea/
+.vscode/
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+.cursor/
+.gemini/
